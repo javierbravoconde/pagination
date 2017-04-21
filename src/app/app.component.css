@@ -8,19 +8,12 @@
 	overflow: hidden;	    
 }
 
-.order-content-container /* This is how we hide the scrollbars */
+swiper 
 {      
   width: 100%;  
   height: 90%;    
   overflow: hidden;  
-}
-
-.container-paginator{
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /*border: 1px solid blue;*/
 }
 
 .order-sub-content-container  
@@ -33,6 +26,16 @@
     overflow-y: hidden;
     overflow-x: scroll;	
 }
+
+.container-paginator{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .container-items{
 	height: 100%;
