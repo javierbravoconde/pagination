@@ -142,7 +142,17 @@ swiper
 
 
 
-.btn-next-previous {
+.btn-next {
+    border: 1px;
+    background-color: #DE4001;
+    color: white;
+    height:50px;
+    width:200px;
+    cursor:pointer;
+    outline:0;
+}
+
+.btn-previous {
     border: 1px;
     background-color: #DE4001;
     color: white;
@@ -155,6 +165,11 @@ swiper
 .btn-next-previous:disabled {
     background-color: #C0C0C0;
 }
+
+
+
+
+
 	
 .img-fluid
 {

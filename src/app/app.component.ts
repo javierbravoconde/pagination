@@ -12,9 +12,13 @@ export class AppComponent {
 	config: Object = {
 			pagination: '.swiper-pagination',
 			paginationClickable: true,
-			nextButton: '.swiper-button-next',
-			prevButton: '.swiper-button-prev',
-			spaceBetween: 30
+			
+			prevButton: '.btn-previous',
+			nextButton: '.btn-next',
+			spaceBetween: 30,
+			bulletClass: 'my-swiper-pagination-bullet',
+			bulletActiveClass: 'my-swiper-pagination-bullet-active'
+			
 		};  
   
   ngOnInit() {
