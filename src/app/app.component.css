@@ -1,0 +1,192 @@
+.main-container { 
+
+	position: fixed;
+	left: 20%;
+	top: 80px;
+	width: calc(80% - 30px); /* We adjust 80% Because left is 20%, 20px for the 15px+4px of shopping basket and borders, and 10px more to separate it from the shopping basket  */
+	height: calc(100% - 80px);    
+	overflow: hidden;	    
+}
+
+.order-content-container /* This is how we hide the scrollbars */
+{      
+  width: 100%;  
+  height: 90%;    
+  overflow: hidden;  
+}
+
+.container-paginator{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-sub-content-container  
+{	
+	
+	width: 100%;
+	height: calc(100% + 16px);			
+    display: flex; 	
+    flex-flow: row nowrap;	
+    overflow-y: hidden;
+    overflow-x: scroll;	
+}
+
+.container-items{
+	height: 100%;
+	min-width: 100%;	
+}
+
+
+
+.row-main
+{	
+    display: flex; 	
+    flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+}
+
+.img-row-desc-container
+{
+	height: 230px;	
+}
+
+
+.img-row-container
+{
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+}
+
+.img-container
+{
+  height: 150px;
+  overflow: hidden;
+}
+
+.text-container
+{ 
+  height: 150px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;	
+}
+
+.text-no-image {
+    color: #808080;
+}
+
+.container-add-edit
+{
+	height: 50px;
+	background-color: #595959;	
+	display: flex; 	
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;  
+}
+
+.container-add{
+	width: 50px;
+	height: 40px;
+	margin-left: 10px
+}
+
+.container-edit{
+	width: 50px;
+	height: 40px;
+	margin-right: 10px
+}
+
+
+.border-item
+{
+    border: 2px solid #D3D3D3;
+}
+
+.border-item-empty
+{
+    border: 2px solid white;
+}
+
+
+.img-order-modify
+{	
+    border-radius: 25px;
+    outline:0;    
+}
+
+.description-price-container
+{	
+	display: flex; 	
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	  
+}
+
+.description-container{
+	font-weight: bold; 
+}
+
+.price-container{
+	font-weight: bold; 
+}
+
+
+
+.btn-next-previous {
+    border: 1px;
+    background-color: #DE4001;
+    color: white;
+    height:50px;
+    width:200px;
+    cursor:pointer;
+    outline:0;
+}
+
+.btn-next-previous:disabled {
+    background-color: #C0C0C0;
+}
+	
+.img-fluid
+{
+       width: 100%;
+       height: auto;
+}
+
+	
+.dotted
+{
+    border: 1px solid red;
+    
+}
+
+.dotted-blue
+{
+    border: 1px solid blue;
+    
+}
+
+.div-togglable {
+  background:rgba(255,255,255, 0.9);
+  height: calc(100% - 85px);
+  position: fixed;
+  right: calc(-40% + 15px);
+  top: 80px;
+  border-style: solid;
+  border-top: none;
+  border-color: #808080;
+  border-width: 2px;
+  border-bottom-left-radius: 15px;
+  -moz-transition: right 0.5s linear;
+  -o-transition: right 0.5s linear;
+  -webkit-transition: right 0.5s linear;
+  transition: right 0.5s linear;
+  width: 40%;
+  z-index: 9001;/* IT'S OVER 9000! */
+}
